@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="New Dashboard" />
+  <DataSources>
+    <ObjectDataSource Name="Object Data Source" ComponentName="objectDataSource1">
+      <DataSource Type="DashboardGaugeRanges.Models.SalesPersonData, DashboardGaugeRanges, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+      <DataMember>GetSalesData</DataMember>
+    </ObjectDataSource>
+  </DataSources>
+  <Items>
+    <Gauge ComponentName="gaugeDashboardItem1" Name="Gauges 1" DataSource="objectDataSource1">
+      <CustomProperties>
+        <GaugeRanges>[{"key":1,"name":"Range1","startValue":100,"endValue":200,"color":"yellow"},{"key":2,"name":"Range2","startValue":300,"endValue":400,"color":"red"},{"key":3,"name":"Range3","startValue":500,"endValue":800,"color":"blue"}]</GaugeRanges>
+      </CustomProperties>
+      <DataItems>
+        <Measure DataMember="Quantity" DefaultId="DataItem0" />
+        <Dimension DataMember="SalesPerson" DefaultId="DataItem1" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem1" />
+      </SeriesDimensions>
+      <GaugeElement>
+        <ActualValue DefaultId="DataItem0" />
+        <AbsoluteVariationNumericFormat />
+        <PercentVariationNumericFormat />
+        <PercentOfTargetNumericFormat />
+      </GaugeElement>
+    </Gauge>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="gaugeDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>
