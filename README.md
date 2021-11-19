@@ -6,13 +6,13 @@ The resulting dashboard looks as follows:
 
 ![](images/screenshot.png)
 
-To display the Ranges editing UI for the Gauges item go to [Dashboard Item Menu](https://docs.devexpress.com/Dashboard/117446/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-item-menu) > Options > Ranges (custom) > Edit
+To display the Ranges editing UI for the Gauges item go to [Dashboard Item Menu](https://docs.devexpress.com/Dashboard/117446/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-item-menu) > Options > Ranges (custom) > Edit.
 
 <!-- default file list -->
 ## Files to look at
 
 * [Default.aspx](./CS/Default.aspx)
-* [Default.aspx.cs](./CS/Default.cs)
+* [Default.aspx.cs](./CS/Default.aspx.cs)
 * [CustomRange.cs](./CS/Models/CustomRange.cs)
 * [GaugeRangesExtension.js](./CS/GaugeRangesExtension.js)
 
@@ -27,4 +27,4 @@ To display the Ranges editing UI for the Gauges item go to [Dashboard Item Menu]
 ## More Examples
 
 - [Dashboard - Constant Lines](https://github.com/DevExpress-Examples/dashboard-constant-lines)
-- [Dashboard for Web Forms - How to access API of underlying widgets](https://supportcenter.devexpress.com/ticket/details/t492396/asp-net-web-forms-dashboard-how-to-access-api-of-underlying-widgets)
+- [Dashboard for Web Forms - How to access API of underlying widgets](https://github.com/DevExpress-Examples/how-to-access-api-of-underlying-widgets-in-the-aspnet-dashboard-control-t492396)
