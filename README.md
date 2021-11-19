@@ -4,6 +4,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Dashboard for Web Forms - How to apply ranges to the Gauges item by using Custom Properties 
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/429719105/)**
+<!-- run online end -->
 
 This example show how to edit and display [Ranges](https://js.devexpress.com/Documentation/Guide/UI_Components/CircularGauge/Visual_Elements/#Range_Container) for the [Gauges](https://docs.devexpress.com/Dashboard/117164/web-dashboard/create-dashboards-on-the-web/dashboard-item-settings/gauges) item. Since this functionality is not available in built-in Gauges settings, it is necessary to use [Custom Properties](https://docs.devexpress.com/Dashboard/401702/web-dashboard/ui-elements-and-customization/create-custom-properties). In addition, it is necessary to apply ranges on the server-side when the dashboard is exported. The [ASPxDashboard.CustomExport](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomExport) event is handled for this purpose.
 
