@@ -1,20 +1,21 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/429719105/21.2.3%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1046226)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Dashboard for Web Forms - How to apply ranges to the Gauges item by using Custom Properties 
+# Dashboard for Web Forms - How to use Custom Properties to Modify Ranges in the Gauge Dashboard Item 
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/429719105/)**
 <!-- run online end -->
 
-This example shows how to edit and display [Ranges](https://js.devexpress.com/Documentation/Guide/UI_Components/CircularGauge/Visual_Elements/#Range_Container) for the [Gauges](https://docs.devexpress.com/Dashboard/117164/web-dashboard/create-dashboards-on-the-web/dashboard-item-settings/gauges) item. Since this functionality is not available in built-in Gauges settings, it is necessary to use [Custom Properties](https://docs.devexpress.com/Dashboard/401702/web-dashboard/ui-elements-and-customization/create-custom-properties). In addition, it is necessary to apply ranges on the server-side when the dashboard is exported. The [ASPxDashboard.CustomExport](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomExport) event is handled for this purpose.
+This example shows how to edit [Ranges](https://js.devexpress.com/Documentation/Guide/UI_Components/CircularGauge/Visual_Elements/#Range_Container) for the [Gauge](https://docs.devexpress.com/Dashboard/117164/web-dashboard/create-dashboards-on-the-web/dashboard-item-settings/gauges) dashboard item. This functionality is not available in built-in Gauge settings. Use [Custom Properties](https://docs.devexpress.com/Dashboard/401702/web-dashboard/ui-elements-and-customization/create-custom-properties) to save and apply range settings.
+
+You also need to modify ranges on the server side to display changes in the exported document. The [ASPxDashboard.CustomExport](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomExport) event is handled for this purpose.
 
 The resulting dashboard looks as follows:
 
 ![](images/screenshot.png)
 
-To display the Ranges editing UI for the Gauges item go to [Dashboard Item Menu](https://docs.devexpress.com/Dashboard/117446/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-item-menu) > Options > Ranges (custom) > Edit.
+To modify ranges in the UI, go to the Gauge's [Item Menu](https://docs.devexpress.com/Dashboard/117446/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-item-menu) → Options → Ranges (custom) → Edit.
 
 <!-- default file list -->
 ## Files to look at
