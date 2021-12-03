@@ -11,7 +11,7 @@
     var GaugeRangesProperty = {
         ownerType: Model.GaugeItem,
         propertyName: 'GaugeRanges',
-        defauleValue: [],
+        defaultValue: "[]",
         valueType: 'string'
     };
     Model.registerCustomProperty(GaugeRangesProperty);
