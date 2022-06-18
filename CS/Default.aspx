@@ -18,6 +18,7 @@
         //<![CDATA[
         function onBeforeRender(s, e) {
             var dashboardControl = s.GetDashboardControl();
+
             dashboardControl.registerExtension(new GaugeRangesExtension(dashboardControl));
         }
         //]]>
