@@ -18,15 +18,12 @@ The resulting dashboard looks as follows:
 
 To modify ranges in the UI, go to the Gauge's [Item Menu](https://docs.devexpress.com/Dashboard/117446/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-item-menu) → Options → Ranges (custom) → Edit.
 
-<!-- default file list -->
-## Files to look at
+## Files to Review
 
 * [Default.aspx](./CS/Default.aspx)
 * [Default.aspx.cs](./CS/Default.aspx.cs)
 * [CustomRange.cs](./CS/Models/CustomRange.cs)
 * [GaugeRangesExtension.js](./CS/GaugeRangesExtension.js)
-
-<!-- default file list end -->
 
 ## Documentation
 
