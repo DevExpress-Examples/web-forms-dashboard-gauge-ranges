@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Dashboard for Web Forms - How to use Custom Properties to Modify Ranges in the Gauge Dashboard Item 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/429719105/)**
-<!-- run online end -->
 
 This example shows how to edit [Ranges](https://js.devexpress.com/Documentation/Guide/UI_Components/CircularGauge/Visual_Elements/#Range_Container) for the [Gauge](https://docs.devexpress.com/Dashboard/117164/web-dashboard/create-dashboards-on-the-web/dashboard-item-settings/gauges) dashboard item. This functionality is not available in built-in Gauge settings. Use [Custom Properties](https://docs.devexpress.com/Dashboard/401702/web-dashboard/ui-elements-and-customization/create-custom-properties) to save and apply range settings.
 
